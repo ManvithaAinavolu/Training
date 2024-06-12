@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+ }
+.container{
+    text-align: center;
+    margin-top: 150px;
+     background-color: antiquewhite;
+    border:2px solid black;
+    border-radius:15px;
+    box-shadow: 10px 10px gray;
+    padding:10px 15px;
+     width:500px;
+    justify-content: center;
+    align-items: center;
+      
+}
+.input{
+    align-items: center;
+    padding: 10px 10px;
+}
+.input input[type=text]{
+    border:2px solid black;
+    padding:20px 25px;
+    width:50%;
+    border-radius: 5px;
+
+}
+.input #add{
+    color:white;
+    background-color: rgb(176, 39, 80);
+    padding:20px 20px;
+    font-weight:bolder;
+
+}
+.input #add:hover{
+    background-color: pink;
+    color:black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#list {
+    padding: 10px;
+    color: brown;
+    font-weight: bold;
+    display: block;
+    font-size: 28px;
+    max-height: 250px;
+    overflow-y: auto;
+     list-style-type: decimal;
+    list-style-position: inside;
+}
+
+#list li {
+     align-items: center;
+    justify-content: space-between;
+}
+
+#req{
+    color:red
+}
+.completed{
+    text-decoration: line-through;
+    color:gray
+}
+#list .delete-button {
+    width: 30px; 
+    height: 30px; 
+    margin-left:20px;
+
+     
+}
+#list .delete-button:hover{
+    cursor: pointer;
+}
+#list input[type=checkbox]{
+    padding:10px 20px;
+    margin-left:20px;
+    width:30px;
+    height: 30px;
+    text-align: center;
+    margin-top:10px;
+    display: inline;
+    border:3px solid black
+
+}

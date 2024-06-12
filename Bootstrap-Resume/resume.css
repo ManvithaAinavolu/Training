@@ -1,0 +1,102 @@
+.container{
+    border:2px solid rgb(154, 113, 224);
+    height:430vh;
+    margin-top: 5px;
+ }
+.container .col-md-6{
+    padding:20px;
+    
+}
+.container .color{
+   background-color: rgb(177, 173, 200);
+}
+.container .col-md-6{
+    padding: 20px;
+    margin-top: 25px;
+ }
+ .container .col-md-3 img{
+   height:90px;
+   margin-left:50px;
+   margin-top:30px;
+
+ }
+ .container .line{
+
+    border:2px solid rgb(101, 116, 235);
+    border-radius:2rem;
+ }
+ .text{
+    margin-left:20px;
+    margin-right: 20px;
+ }
+ .text p{
+    font-size: 18px;
+    color:rgb(72, 71, 71);
+    line-height: 30px;
+    padding:20px;
+    
+
+ }
+ .container .card{
+    border:none;
+
+ }
+ .container .card p{
+    color:rgb(72, 71, 71);
+    font-size: 16px;
+    line-height: 10px;
+    margin-left:20px;
+
+  }
+.container h2{
+    padding:10px;
+}
+.card1 .container{
+   border:none;
+   padding:10px;
+}
+.card1 p strong{
+   margin-left:20px
+}
+.card1 .txt{
+   font-size: 18px;
+   margin-left: 20px;
+}
+.card1 h3{
+   padding:10px
+}
+.card .card-body{
+   width:280px;
+   border:1px solid blue;
+}
+/* .card{
+   border: 1px solid blue;
+} */
+.card .card-body .card-text{
+line-height: 25px;
+margin-left: 10px;
+margin-right:10px
+
+}
+.card .card-body .card-title{
+   padding: 10px;
+}
+.card{
+   padding:10px 10px 10px 10px
+}
+.flush .list-group .list-flush{
+   border:none
+}
+.container .card1 .container .links{
+justify-content: center;
+align-items: center;
+}
+.links a {
+   padding:10px 5px;
+   margin-top: 10px;
+   margin-left: 250px;
+   color:black
+}
+.links a:hover{
+   color:blue
+}

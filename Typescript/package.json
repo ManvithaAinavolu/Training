@@ -1,0 +1,16 @@
+{
+  "name": "typescript",
+  "version": "9.0.0",
+  "description": "first ts file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "manvitha",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {},
+  "keywords": []
+}

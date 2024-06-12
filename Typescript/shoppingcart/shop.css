@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-top:40px;
+    align-items: center;
+    padding:10px 10px 10px 10px ;
+}
+#productList h2{
+    padding:20px;
+    text-align: center;
+    
+}
+#productList,#cart{
+border:1px solid gray;
+padding:20px;
+width:500px;
+border:2px solid black;
+padding:10px 10px 10px 10px;
+
+
+
+}
+button{
+    padding:20px ;
+    margin-bottom: 20px ;
+    margin-left:40px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+#cartItems{
+    list-style-type: none;
+
+}
+#totalPrice{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#input-quantity{
+    padding:10px 20px;
+    border:2px solid black;
+     justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+     width:300px
+}

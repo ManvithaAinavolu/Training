@@ -1,0 +1,143 @@
+/* Normal styles for desktop screens */
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+    color: brown;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    top: 20px;
+}
+
+.intro {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.intro p {
+    justify-content: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    padding: 10px 15px;
+    top: 10px;
+}
+
+.list img {
+    width: 500px;
+    height: 400px;
+    float: right;
+    padding: 20px 10px;
+}
+
+.list ul {
+    padding: 20px 10px;
+    top: 20px;
+    line-height: 75px;
+    justify-content: center;
+    list-style-type: square;
+    margin-left: 80px;
+}
+
+.list ul li {
+    color: rgb(28, 4, 51);
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+tr,
+th,
+table,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px 15px;
+    width: 300px;
+}
+
+td {
+    font-size: 20px;
+}
+
+footer {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.form {
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    background-color: aliceblue;
+    justify-content: center;
+    border: 2px solid black;
+    box-shadow: 2px 2px gray;
+    width: 500px;
+    margin-left: 400px;
+}
+
+input {
+    border: 2px solid black;
+    padding: 10px 15px;
+    color: blue;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+input[type=submit] {
+    padding: 15px 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: blue;
+    width: 80px;
+}
+
+footer p {
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px 10px;
+}
+
+ @media only screen and (max-width: 480px) {
+    .intro p {
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    .list img {
+        width:400px;
+        height: auto;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .list ul {
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    .tab {
+        margin-left: 0;
+    }
+
+    .form {
+        width: 500px;
+        margin-left: 0;
+        width:380px
+
+    }
+}
